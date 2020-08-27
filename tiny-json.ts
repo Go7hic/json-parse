@@ -353,13 +353,13 @@ function quote(string) {
 }
   
 function str(key, holder) {
-  var i;          // The loop counter.
-  var k;          // The member key.
-  var v;          // The member value.
-  var length;
-  var mind = gap;
-  var partial;
-  var value = holder[key];
+  let i;          // The loop counter.
+  let k;          // The member key.
+  let v;          // The member value.
+  let length;
+  let mind = gap;
+  let partial;
+  let value = holder[key];
   if (
     value
     && typeof value === "object"
